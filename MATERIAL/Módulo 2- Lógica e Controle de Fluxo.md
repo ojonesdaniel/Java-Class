@@ -6,65 +6,67 @@
 
 ### Aritméticos
 
-```java
-+  -  *  /  %
-```
+| Operador | Nome          | Exemplo | Resultado |
+| -------- | ------------- | ------- | --------- |
+| `+`      | Soma          | `5 + 3` | 8         |
+| `-`      | Subtração     | `5 - 3` | 2         |
+| `*`      | Multiplicação | `5 * 3` | 15        |
+| `/`      | Divisão       | `5 / 2` | 2         |
+| `%`      | Resto         | `5 % 2` | 1         |
 
-Exemplo:
 
-```java
-int a = 10;
-int b = 3;
-System.out.println(a / b); // 3 (divisão inteira)
-System.out.println(a % b); // 1 (resto)
-```
+### Operadores Relacionais
 
----
+| Operador | Significado    | Exemplo  |
+| -------- | -------------- | -------- |
+| `==`     | Igual          | `a == b` |
+| `!=`     | Diferente      | `a != b` |
+| `>`      | Maior que      | `a > b`  |
+| `<`      | Menor que      | `a < b`  |
+| `>=`     | Maior ou igual | `a >= b` |
+| `<=`     | Menor ou igual | `a <= b` |
 
-### Relacionais
 
-```java
-==  !=  >  <  >=  <=
-```
+### Operadores Lógicos
 
-Exemplo:
+| Operador | Nome      | Exemplo         | Resultado |       |   |        |      |
+| -------- | --------- | --------------- | --------- | ----- | - | ------ | ---- |
+| `&&`     | E (AND)   | `true && false` | false     |       |   |        |      |
+| `        |           | `               | OU (OR)   | `true |   | false` | true |
+| `!`      | NÃO (NOT) | `!true`         | false     |       |   |        |      |
 
-```java
-System.out.println(10 >= 10); // true
-```
+### Operadores de Incremento/Decremento
 
----
+| Operador | Nome       | Exemplo | Explicação |
+| -------- | ---------- | ------- | ---------- |
+| `++`     | Incremento | `i++`   | usa depois |
+| `++`     | Incremento | `++i`   | usa antes  |
+| `--`     | Decremento | `i--`   | usa depois |
+| `--`     | Decremento | `--i`   | usa antes  |
 
-### Lógicos
+### Operadores de Atribuição
 
-```java
-&&  ||  !
-```
+| Operador | Exemplo  | Equivalente |
+| -------- | -------- | ----------- |
+| `=`      | `a = 5`  | —           |
+| `+=`     | `a += 3` | `a = a + 3` |
+| `-=`     | `a -= 3` | `a = a - 3` |
+| `*=`     | `a *= 3` | `a = a * 3` |
+| `/=`     | `a /= 3` | `a = a / 3` |
+| `%=`     | `a %= 3` | `a = a % 3` |
 
-Exemplo:
+### Operador Terná| Operador | Estrutura                  |
 
-```java
-boolean resultado = (10 > 5) && (5 < 3); // false
-```
+| -------- | -------------------------- |
+| `? :`    | condição ? valor1 : valor2 |
 
----
+### Operador de Comparação de String (IMPORTANTE)
 
-### Incremento e Decremento
+| Errado | Certo                 |
+| ------ | --------------------- |
+| `==`   | `.equals()`           |
+|        | `.equalsIgnoreCase()` |
 
-```java
-i++  // pós-incremento
-++i  // pré-incremento
-i--  // pós-decremento
---i  // pré-decremento
-```
-
-⚠️ Pegadinha:
-
-```java
-int i = 5;
-System.out.println(i++); // imprime 5, depois vira 6
-System.out.println(++i); // vira 7, depois imprime 7
-```
 
 ---
 
