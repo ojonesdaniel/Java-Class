@@ -21,10 +21,9 @@ public class Ex14 {
         System.out.println("Digite o valor de B:");
         int b = sc.nextInt();
 
+        a = a + b;
+        b = a - b;
         a = a - b;
-        b = b + a; /// 2 + 1 - 2
-        a = a - b * (-1);
-
 
         System.out.println("O valor de A: " + a);
         System.out.println("O valor de B: " + b);

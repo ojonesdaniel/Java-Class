@@ -54,7 +54,3 @@
 - O número total de eleitores
 - O número de votos do primeiro candidato
 - O número de votos do segundo candidato
-
-Em seguida, calcule e mostre:
-- O percentual de votos de cada candidato
-- O percentual de votos nulos
